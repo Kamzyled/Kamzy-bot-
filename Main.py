@@ -5,7 +5,7 @@ import openai
 app = Flask(__kamzy__)
 
 # Get OpenAI API key from Render secret
-openai.api_key = os.getenv("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")
+openai)
 
 @app.route("/")
 def home():
